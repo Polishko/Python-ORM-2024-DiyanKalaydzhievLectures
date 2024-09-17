@@ -31,7 +31,10 @@
 	docker exec -t <container_name> /bin/bash
 	psql -U your_user_me -d your_db_name
 ```
-
+#(Alternatively psql shell)
+```	
+ docker exec -it postgres_container sh
+```
 ---
 
 # Helpers
