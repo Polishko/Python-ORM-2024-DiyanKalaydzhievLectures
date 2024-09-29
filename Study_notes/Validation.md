@@ -1,4 +1,6 @@
-About validation
+(Based on Notes from lectures, HackSoftware Django Style Guide and answers from ChatGPT)
+
+
 1.	Model level validation with clean
 
  ![image](https://github.com/user-attachments/assets/fc1b91f4-5677-4e98-846c-636d1c4a517f)
