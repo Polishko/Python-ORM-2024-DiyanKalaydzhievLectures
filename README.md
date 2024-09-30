@@ -763,6 +763,15 @@ author_posts = author.post_set.all()
 	# 2. SELECT * FROM "myapp_book" INNER JOIN "myapp_book_authors" ON ("myapp_book"."id" = "myapp_book_authors"."book_id")
 	```
 
+ ![image](https://github.com/user-attachments/assets/1be2ab05-09b9-4180-a363-b29693d63754)
+
+ ![image](https://github.com/user-attachments/assets/83a996c8-8627-4b7e-b3fc-141aeed02a9e)
+
+ ![image](https://github.com/user-attachments/assets/cfa0bc4a-776a-4998-8ec5-ee934b0176c4)
+
+![image](https://github.com/user-attachments/assets/48d8145a-8eed-4c94-b014-4935b26f8c35)
+
+
 4. Q and F
 
   - Използваме Q object, за да правим заявки изискващи по-сложни условия
