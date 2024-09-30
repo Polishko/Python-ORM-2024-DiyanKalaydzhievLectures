@@ -712,6 +712,10 @@ author_posts = author.post_set.all()
 	# Annotating the queryset to get the count of books for each author
 	authors_with_book_count = Book.objects.values('author').annotate(book_count=Count('id'))
 	```
+ ![image](https://github.com/user-attachments/assets/f905f395-6899-4859-b2c4-5a2e23edd180)
+ ![image](https://github.com/user-attachments/assets/27058a87-a0c9-46a8-a3d5-2c79034aa1df)
+ [Uploading image.png…]()
+
    - Агрегации - връщат едно поле(една стойност), често резултат от агрегиращи функции. Връща dict
 	
 	```py
