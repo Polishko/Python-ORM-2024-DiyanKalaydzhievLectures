@@ -723,6 +723,9 @@ author_posts = author.post_set.all()
 	average_rating = Book.objects.aggregate(avg_rating=Avg('rating'))
 	```
 
+ ![image](https://github.com/user-attachments/assets/eb593764-e408-478e-b29d-a6df9f552a2e)
+
+
 3. select_related & prefetch_related
    - select_related - редуцира броя на заявките при One-To-One и Many-To-One заявки
      - вместо lazily да взимаме свързаните обекти правим JOIN още при първата заявка
